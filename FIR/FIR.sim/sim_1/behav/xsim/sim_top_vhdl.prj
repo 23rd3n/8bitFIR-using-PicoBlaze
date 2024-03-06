@@ -1,0 +1,39 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../two2onemux.vhd" \
+"../../../../BRAM0.vhd" \
+"../../../../kcpsm6.vhd" \
+"../../../../top.vhd" \
+"../../../../dLatch8.vhd" \
+"../../../../selector.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_mult_gen_0_0/sim/fir_mult_gen_0_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_mult_gen_0_1/sim/fir_mult_gen_0_1.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_mult_gen_1_0/sim/fir_mult_gen_1_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_mult_gen_2_0/sim/fir_mult_gen_2_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_mult_gen_3_0/sim/fir_mult_gen_3_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_mult_gen_4_0/sim/fir_mult_gen_4_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_mult_gen_5_0/sim/fir_mult_gen_5_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_mult_gen_6_0/sim/fir_mult_gen_6_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_mux2to1_0_0/sim/fir_mux2to1_0_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_c_addsub_0_1/sim/fir_c_addsub_0_1.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_c_addsub_0_2/sim/fir_c_addsub_0_2.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_c_addsub_0_3/sim/fir_c_addsub_0_3.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_c_addsub_0_4/sim/fir_c_addsub_0_4.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_c_addsub_0_5/sim/fir_c_addsub_0_5.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_c_addsub_0_6/sim/fir_c_addsub_0_6.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_c_addsub_1_0/sim/fir_c_addsub_1_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_top_0_0/sim/fir_top_0_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_RisingEdge_DFlipFlop_14_0/sim/fir_RisingEdge_DFlipFlop_14_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_RisingEdge_DFlipFlop_20_0/sim/fir_RisingEdge_DFlipFlop_20_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_RisingEdge_DFlipFlop_27_0/sim/fir_RisingEdge_DFlipFlop_27_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_RisingEdge_DFlipFlop_2_0/sim/fir_RisingEdge_DFlipFlop_2_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_RisingEdge_DFlipFlop_2_1/sim/fir_RisingEdge_DFlipFlop_2_1.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_RisingEdge_DFlipFlop_5_0/sim/fir_RisingEdge_DFlipFlop_5_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_RisingEdge_DFlipFlop_9_0/sim/fir_RisingEdge_DFlipFlop_9_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/ip/fir_selector_0_0/sim/fir_selector_0_0.vhd" \
+"../../../../FIR.ip_user_files/bd/fir/sim/fir.vhd" \
+"../../../../FIR.gen/sources_1/bd/fir/hdl/fir_wrapper.vhd" \
+"../../../../sim_top.vhd" \
+
+# Do not sort compile order
+nosort

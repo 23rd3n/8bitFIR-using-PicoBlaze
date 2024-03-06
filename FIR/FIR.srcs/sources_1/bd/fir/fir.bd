@@ -1,0 +1,1244 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x6623418530F40728",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../FIR.gen/sources_1/bd/fir",
+      "name": "fir",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2021.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "mult_gen_0": "",
+      "mult_gen_1": "",
+      "mult_gen_2": "",
+      "mult_gen_3": "",
+      "mult_gen_4": "",
+      "mult_gen_5": "",
+      "mult_gen_6": "",
+      "mult_gen_7": "",
+      "blk_mem_gen_0": "",
+      "mux2to1_0": "",
+      "c_addsub_1": "",
+      "c_addsub_2": "",
+      "c_addsub_3": "",
+      "c_addsub_4": "",
+      "c_addsub_5": "",
+      "c_addsub_6": "",
+      "c_addsub_7": "",
+      "clk_wiz_0": "",
+      "RisingEdge_DFlipFlop_14": "",
+      "RisingEdge_DFlipFlop_20": "",
+      "RisingEdge_DFlipFlop_27": "",
+      "RisingEdge_DFlipFlop_2": "",
+      "RisingEdge_DFlipFlop_3": "",
+      "RisingEdge_DFlipFlop_5": "",
+      "RisingEdge_DFlipFlop_9": "",
+      "selector_0": "",
+      "top_0": ""
+    },
+    "ports": {
+      "clk": {
+        "direction": "I"
+      },
+      "yn": {
+        "type": "data",
+        "direction": "O",
+        "left": "22",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "xilinx.com:interface:datatypes:1.0 {DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value data} bitwidth {attribs {resolve_type generated dependency bitwidth format long minimum {} maximum {}} value 23} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type generated dependency signed format bool minimum {} maximum {}} value TRUE}}}} DATA_WIDTH 23}",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "xn": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "addr": {
+        "direction": "I",
+        "left": "7",
+        "right": "0"
+      },
+      "wea": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      }
+    },
+    "components": {
+      "mult_gen_0": {
+        "vlnv": "xilinx.com:ip:mult_gen:12.0",
+        "xci_name": "fir_mult_gen_0_0",
+        "xci_path": "ip\\fir_mult_gen_0_0\\fir_mult_gen_0_0.xci",
+        "inst_hier_path": "mult_gen_0",
+        "parameters": {
+          "PortAType": {
+            "value": "Signed"
+          },
+          "PortAWidth": {
+            "value": "8"
+          },
+          "PortBType": {
+            "value": "Signed"
+          },
+          "PortBWidth": {
+            "value": "8"
+          }
+        }
+      },
+      "mult_gen_1": {
+        "vlnv": "xilinx.com:ip:mult_gen:12.0",
+        "xci_name": "fir_mult_gen_0_1",
+        "xci_path": "ip\\fir_mult_gen_0_1\\fir_mult_gen_0_1.xci",
+        "inst_hier_path": "mult_gen_1",
+        "parameters": {
+          "PortAType": {
+            "value": "Signed"
+          },
+          "PortAWidth": {
+            "value": "8"
+          },
+          "PortBType": {
+            "value": "Signed"
+          },
+          "PortBWidth": {
+            "value": "8"
+          }
+        }
+      },
+      "mult_gen_2": {
+        "vlnv": "xilinx.com:ip:mult_gen:12.0",
+        "xci_name": "fir_mult_gen_1_0",
+        "xci_path": "ip\\fir_mult_gen_1_0\\fir_mult_gen_1_0.xci",
+        "inst_hier_path": "mult_gen_2",
+        "parameters": {
+          "PortAType": {
+            "value": "Signed"
+          },
+          "PortAWidth": {
+            "value": "8"
+          },
+          "PortBType": {
+            "value": "Signed"
+          },
+          "PortBWidth": {
+            "value": "8"
+          }
+        }
+      },
+      "mult_gen_3": {
+        "vlnv": "xilinx.com:ip:mult_gen:12.0",
+        "xci_name": "fir_mult_gen_2_0",
+        "xci_path": "ip\\fir_mult_gen_2_0\\fir_mult_gen_2_0.xci",
+        "inst_hier_path": "mult_gen_3",
+        "parameters": {
+          "PortAType": {
+            "value": "Signed"
+          },
+          "PortAWidth": {
+            "value": "8"
+          },
+          "PortBType": {
+            "value": "Signed"
+          },
+          "PortBWidth": {
+            "value": "8"
+          }
+        }
+      },
+      "mult_gen_4": {
+        "vlnv": "xilinx.com:ip:mult_gen:12.0",
+        "xci_name": "fir_mult_gen_3_0",
+        "xci_path": "ip\\fir_mult_gen_3_0\\fir_mult_gen_3_0.xci",
+        "inst_hier_path": "mult_gen_4",
+        "parameters": {
+          "PortAType": {
+            "value": "Signed"
+          },
+          "PortAWidth": {
+            "value": "8"
+          },
+          "PortBType": {
+            "value": "Signed"
+          },
+          "PortBWidth": {
+            "value": "8"
+          }
+        }
+      },
+      "mult_gen_5": {
+        "vlnv": "xilinx.com:ip:mult_gen:12.0",
+        "xci_name": "fir_mult_gen_4_0",
+        "xci_path": "ip\\fir_mult_gen_4_0\\fir_mult_gen_4_0.xci",
+        "inst_hier_path": "mult_gen_5",
+        "parameters": {
+          "PortAType": {
+            "value": "Signed"
+          },
+          "PortAWidth": {
+            "value": "8"
+          },
+          "PortBType": {
+            "value": "Signed"
+          },
+          "PortBWidth": {
+            "value": "8"
+          }
+        }
+      },
+      "mult_gen_6": {
+        "vlnv": "xilinx.com:ip:mult_gen:12.0",
+        "xci_name": "fir_mult_gen_5_0",
+        "xci_path": "ip\\fir_mult_gen_5_0\\fir_mult_gen_5_0.xci",
+        "inst_hier_path": "mult_gen_6",
+        "parameters": {
+          "PortAType": {
+            "value": "Signed"
+          },
+          "PortAWidth": {
+            "value": "8"
+          },
+          "PortBType": {
+            "value": "Signed"
+          },
+          "PortBWidth": {
+            "value": "8"
+          }
+        }
+      },
+      "mult_gen_7": {
+        "vlnv": "xilinx.com:ip:mult_gen:12.0",
+        "xci_name": "fir_mult_gen_6_0",
+        "xci_path": "ip\\fir_mult_gen_6_0\\fir_mult_gen_6_0.xci",
+        "inst_hier_path": "mult_gen_7",
+        "parameters": {
+          "PortAType": {
+            "value": "Signed"
+          },
+          "PortAWidth": {
+            "value": "8"
+          },
+          "PortBType": {
+            "value": "Signed"
+          },
+          "PortBWidth": {
+            "value": "8"
+          }
+        }
+      },
+      "blk_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+        "xci_name": "fir_blk_mem_gen_0_0",
+        "xci_path": "ip\\fir_blk_mem_gen_0_0\\fir_blk_mem_gen_0_0.xci",
+        "inst_hier_path": "blk_mem_gen_0",
+        "parameters": {
+          "Enable_32bit_Address": {
+            "value": "false"
+          },
+          "Enable_A": {
+            "value": "Always_Enabled"
+          },
+          "Read_Width_A": {
+            "value": "8"
+          },
+          "Register_PortA_Output_of_Memory_Primitives": {
+            "value": "true"
+          },
+          "Use_Byte_Write_Enable": {
+            "value": "false"
+          },
+          "Use_RSTA_Pin": {
+            "value": "false"
+          },
+          "Write_Depth_A": {
+            "value": "256"
+          },
+          "Write_Width_A": {
+            "value": "8"
+          },
+          "use_bram_block": {
+            "value": "Stand_Alone"
+          }
+        }
+      },
+      "mux2to1_0": {
+        "vlnv": "xilinx.com:module_ref:mux2to1:1.0",
+        "xci_name": "fir_mux2to1_0_0",
+        "xci_path": "ip\\fir_mux2to1_0_0\\fir_mux2to1_0_0.xci",
+        "inst_hier_path": "mux2to1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mux2to1",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "simulation": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "picoblaze": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "s": {
+            "direction": "I"
+          },
+          "ram_giris": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "c_addsub_1": {
+        "vlnv": "xilinx.com:ip:c_addsub:12.0",
+        "xci_name": "fir_c_addsub_0_1",
+        "xci_path": "ip\\fir_c_addsub_0_1\\fir_c_addsub_0_1.xci",
+        "inst_hier_path": "c_addsub_1",
+        "parameters": {
+          "A_Type": {
+            "value": "Signed"
+          },
+          "A_Width": {
+            "value": "16"
+          },
+          "B_Type": {
+            "value": "Signed"
+          },
+          "B_Value": {
+            "value": "000000000000000000000"
+          },
+          "B_Width": {
+            "value": "21"
+          },
+          "CE": {
+            "value": "false"
+          },
+          "Latency": {
+            "value": "0"
+          },
+          "Out_Width": {
+            "value": "22"
+          }
+        }
+      },
+      "c_addsub_2": {
+        "vlnv": "xilinx.com:ip:c_addsub:12.0",
+        "xci_name": "fir_c_addsub_0_2",
+        "xci_path": "ip\\fir_c_addsub_0_2\\fir_c_addsub_0_2.xci",
+        "inst_hier_path": "c_addsub_2",
+        "parameters": {
+          "A_Type": {
+            "value": "Signed"
+          },
+          "A_Width": {
+            "value": "16"
+          },
+          "B_Type": {
+            "value": "Signed"
+          },
+          "B_Value": {
+            "value": "00000000000000000000"
+          },
+          "B_Width": {
+            "value": "20"
+          },
+          "CE": {
+            "value": "false"
+          },
+          "Latency": {
+            "value": "0"
+          },
+          "Out_Width": {
+            "value": "21"
+          }
+        }
+      },
+      "c_addsub_3": {
+        "vlnv": "xilinx.com:ip:c_addsub:12.0",
+        "xci_name": "fir_c_addsub_0_3",
+        "xci_path": "ip\\fir_c_addsub_0_3\\fir_c_addsub_0_3.xci",
+        "inst_hier_path": "c_addsub_3",
+        "parameters": {
+          "A_Type": {
+            "value": "Signed"
+          },
+          "A_Width": {
+            "value": "16"
+          },
+          "B_Type": {
+            "value": "Signed"
+          },
+          "B_Value": {
+            "value": "0000000000000000000"
+          },
+          "B_Width": {
+            "value": "19"
+          },
+          "CE": {
+            "value": "false"
+          },
+          "Latency": {
+            "value": "0"
+          },
+          "Out_Width": {
+            "value": "20"
+          }
+        }
+      },
+      "c_addsub_4": {
+        "vlnv": "xilinx.com:ip:c_addsub:12.0",
+        "xci_name": "fir_c_addsub_0_4",
+        "xci_path": "ip\\fir_c_addsub_0_4\\fir_c_addsub_0_4.xci",
+        "inst_hier_path": "c_addsub_4",
+        "parameters": {
+          "A_Type": {
+            "value": "Signed"
+          },
+          "A_Width": {
+            "value": "16"
+          },
+          "B_Type": {
+            "value": "Signed"
+          },
+          "B_Value": {
+            "value": "000000000000000000"
+          },
+          "B_Width": {
+            "value": "18"
+          },
+          "CE": {
+            "value": "false"
+          },
+          "Latency": {
+            "value": "0"
+          },
+          "Out_Width": {
+            "value": "19"
+          }
+        }
+      },
+      "c_addsub_5": {
+        "vlnv": "xilinx.com:ip:c_addsub:12.0",
+        "xci_name": "fir_c_addsub_0_5",
+        "xci_path": "ip\\fir_c_addsub_0_5\\fir_c_addsub_0_5.xci",
+        "inst_hier_path": "c_addsub_5",
+        "parameters": {
+          "A_Type": {
+            "value": "Signed"
+          },
+          "A_Width": {
+            "value": "16"
+          },
+          "B_Type": {
+            "value": "Signed"
+          },
+          "B_Value": {
+            "value": "00000000000000000"
+          },
+          "B_Width": {
+            "value": "17"
+          },
+          "CE": {
+            "value": "false"
+          },
+          "Latency": {
+            "value": "0"
+          },
+          "Out_Width": {
+            "value": "18"
+          }
+        }
+      },
+      "c_addsub_6": {
+        "vlnv": "xilinx.com:ip:c_addsub:12.0",
+        "xci_name": "fir_c_addsub_0_6",
+        "xci_path": "ip\\fir_c_addsub_0_6\\fir_c_addsub_0_6.xci",
+        "inst_hier_path": "c_addsub_6",
+        "parameters": {
+          "A_Type": {
+            "value": "Signed"
+          },
+          "A_Width": {
+            "value": "16"
+          },
+          "B_Type": {
+            "value": "Signed"
+          },
+          "B_Value": {
+            "value": "0000000000000000"
+          },
+          "B_Width": {
+            "value": "16"
+          },
+          "CE": {
+            "value": "false"
+          },
+          "Latency": {
+            "value": "0"
+          },
+          "Out_Width": {
+            "value": "17"
+          }
+        }
+      },
+      "c_addsub_7": {
+        "vlnv": "xilinx.com:ip:c_addsub:12.0",
+        "xci_name": "fir_c_addsub_1_0",
+        "xci_path": "ip\\fir_c_addsub_1_0\\fir_c_addsub_1_0.xci",
+        "inst_hier_path": "c_addsub_7",
+        "parameters": {
+          "A_Type": {
+            "value": "Signed"
+          },
+          "A_Width": {
+            "value": "16"
+          },
+          "B_Type": {
+            "value": "Signed"
+          },
+          "B_Value": {
+            "value": "0000000000000000000000"
+          },
+          "B_Width": {
+            "value": "22"
+          },
+          "CE": {
+            "value": "false"
+          },
+          "Latency": {
+            "value": "0"
+          },
+          "Out_Width": {
+            "value": "23"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "fir_clk_wiz_0_0",
+        "xci_path": "ip\\fir_clk_wiz_0_0\\fir_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKOUT1_JITTER": {
+            "value": "251.196"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "114.212"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "6.25"
+          },
+          "CLKOUT1_REQUESTED_PHASE": {
+            "value": "90.000"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "8.000"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "128.000"
+          },
+          "MMCM_CLKOUT0_PHASE": {
+            "value": "90.000"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "1"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "RisingEdge_DFlipFlop_14": {
+        "vlnv": "xilinx.com:module_ref:RisingEdge_DFlipFlop:1.0",
+        "xci_name": "fir_RisingEdge_DFlipFlop_14_0",
+        "xci_path": "ip\\fir_RisingEdge_DFlipFlop_14_0\\fir_RisingEdge_DFlipFlop_14_0.xci",
+        "inst_hier_path": "RisingEdge_DFlipFlop_14",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "RisingEdge_DFlipFlop",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "6250000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "90.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Xout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "Xin": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "RisingEdge_DFlipFlop_20": {
+        "vlnv": "xilinx.com:module_ref:RisingEdge_DFlipFlop:1.0",
+        "xci_name": "fir_RisingEdge_DFlipFlop_20_0",
+        "xci_path": "ip\\fir_RisingEdge_DFlipFlop_20_0\\fir_RisingEdge_DFlipFlop_20_0.xci",
+        "inst_hier_path": "RisingEdge_DFlipFlop_20",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "RisingEdge_DFlipFlop",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "6250000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "90.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Xout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "Xin": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "RisingEdge_DFlipFlop_27": {
+        "vlnv": "xilinx.com:module_ref:RisingEdge_DFlipFlop:1.0",
+        "xci_name": "fir_RisingEdge_DFlipFlop_27_0",
+        "xci_path": "ip\\fir_RisingEdge_DFlipFlop_27_0\\fir_RisingEdge_DFlipFlop_27_0.xci",
+        "inst_hier_path": "RisingEdge_DFlipFlop_27",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "RisingEdge_DFlipFlop",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "6250000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "90.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Xout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "Xin": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "RisingEdge_DFlipFlop_2": {
+        "vlnv": "xilinx.com:module_ref:RisingEdge_DFlipFlop:1.0",
+        "xci_name": "fir_RisingEdge_DFlipFlop_2_0",
+        "xci_path": "ip\\fir_RisingEdge_DFlipFlop_2_0\\fir_RisingEdge_DFlipFlop_2_0.xci",
+        "inst_hier_path": "RisingEdge_DFlipFlop_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "RisingEdge_DFlipFlop",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "6250000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "90.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Xout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "Xin": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "RisingEdge_DFlipFlop_3": {
+        "vlnv": "xilinx.com:module_ref:RisingEdge_DFlipFlop:1.0",
+        "xci_name": "fir_RisingEdge_DFlipFlop_2_1",
+        "xci_path": "ip\\fir_RisingEdge_DFlipFlop_2_1\\fir_RisingEdge_DFlipFlop_2_1.xci",
+        "inst_hier_path": "RisingEdge_DFlipFlop_3",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "RisingEdge_DFlipFlop",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "6250000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "90.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Xout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "Xin": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "RisingEdge_DFlipFlop_5": {
+        "vlnv": "xilinx.com:module_ref:RisingEdge_DFlipFlop:1.0",
+        "xci_name": "fir_RisingEdge_DFlipFlop_5_0",
+        "xci_path": "ip\\fir_RisingEdge_DFlipFlop_5_0\\fir_RisingEdge_DFlipFlop_5_0.xci",
+        "inst_hier_path": "RisingEdge_DFlipFlop_5",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "RisingEdge_DFlipFlop",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "6250000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "90.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Xout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "Xin": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "RisingEdge_DFlipFlop_9": {
+        "vlnv": "xilinx.com:module_ref:RisingEdge_DFlipFlop:1.0",
+        "xci_name": "fir_RisingEdge_DFlipFlop_9_0",
+        "xci_path": "ip\\fir_RisingEdge_DFlipFlop_9_0\\fir_RisingEdge_DFlipFlop_9_0.xci",
+        "inst_hier_path": "RisingEdge_DFlipFlop_9",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "RisingEdge_DFlipFlop",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "FREQ_HZ": {
+                "value": "6250000",
+                "value_src": "ip_prop"
+              },
+              "PHASE": {
+                "value": "90.0",
+                "value_src": "ip_prop"
+              },
+              "CLK_DOMAIN": {
+                "value": "/clk_wiz_0_clk_out1",
+                "value_src": "ip_prop"
+              }
+            }
+          },
+          "Xout": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "Xin": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "selector_0": {
+        "vlnv": "xilinx.com:module_ref:selector:1.0",
+        "xci_name": "fir_selector_0_0",
+        "xci_path": "ip\\fir_selector_0_0\\fir_selector_0_0.xci",
+        "inst_hier_path": "selector_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "selector",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "port_id_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "out_port_in": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "a8": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "a7": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "a6": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "a5": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "a4": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "a3": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "a2": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "a1": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "X_out": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "write": {
+            "direction": "I"
+          }
+        }
+      },
+      "top_0": {
+        "vlnv": "xilinx.com:module_ref:top:1.0",
+        "xci_name": "fir_top_0_0",
+        "xci_path": "ip\\fir_top_0_0\\fir_top_0_0.xci",
+        "inst_hier_path": "top_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "top",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "in_port": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "port_id": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "write_strobe": {
+            "direction": "O"
+          },
+          "read_strobe": {
+            "direction": "O"
+          },
+          "out_port": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "Net": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "mult_gen_0/CLK",
+          "mult_gen_1/CLK",
+          "mult_gen_2/CLK",
+          "mult_gen_3/CLK",
+          "mult_gen_4/CLK",
+          "mult_gen_5/CLK",
+          "mult_gen_6/CLK",
+          "mult_gen_7/CLK",
+          "RisingEdge_DFlipFlop_14/Clk",
+          "RisingEdge_DFlipFlop_20/Clk",
+          "RisingEdge_DFlipFlop_27/Clk",
+          "RisingEdge_DFlipFlop_2/Clk",
+          "RisingEdge_DFlipFlop_3/Clk",
+          "RisingEdge_DFlipFlop_5/Clk",
+          "RisingEdge_DFlipFlop_9/Clk"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "clk",
+          "blk_mem_gen_0/clka",
+          "clk_wiz_0/clk_in1",
+          "selector_0/clk",
+          "top_0/clk"
+        ]
+      },
+      "Net2": {
+        "ports": [
+          "selector_0/X_out",
+          "mult_gen_0/B",
+          "RisingEdge_DFlipFlop_3/Xin"
+        ]
+      },
+      "RisingEdge_DFlipFlop_14_Xout": {
+        "ports": [
+          "RisingEdge_DFlipFlop_14/Xout",
+          "mult_gen_5/B",
+          "RisingEdge_DFlipFlop_20/Xin"
+        ]
+      },
+      "RisingEdge_DFlipFlop_20_Xout": {
+        "ports": [
+          "RisingEdge_DFlipFlop_20/Xout",
+          "mult_gen_6/B",
+          "RisingEdge_DFlipFlop_27/Xin"
+        ]
+      },
+      "RisingEdge_DFlipFlop_27_Xout": {
+        "ports": [
+          "RisingEdge_DFlipFlop_27/Xout",
+          "mult_gen_7/B"
+        ]
+      },
+      "RisingEdge_DFlipFlop_2_Xout": {
+        "ports": [
+          "RisingEdge_DFlipFlop_2/Xout",
+          "mult_gen_2/B",
+          "RisingEdge_DFlipFlop_5/Xin"
+        ]
+      },
+      "RisingEdge_DFlipFlop_3_Xout": {
+        "ports": [
+          "RisingEdge_DFlipFlop_3/Xout",
+          "mult_gen_1/B",
+          "RisingEdge_DFlipFlop_2/Xin"
+        ]
+      },
+      "RisingEdge_DFlipFlop_5_Xout": {
+        "ports": [
+          "RisingEdge_DFlipFlop_5/Xout",
+          "mult_gen_3/B",
+          "RisingEdge_DFlipFlop_9/Xin"
+        ]
+      },
+      "RisingEdge_DFlipFlop_9_Xout": {
+        "ports": [
+          "RisingEdge_DFlipFlop_9/Xout",
+          "mult_gen_4/B",
+          "RisingEdge_DFlipFlop_14/Xin"
+        ]
+      },
+      "addr_1": {
+        "ports": [
+          "addr",
+          "mux2to1_0/simulation"
+        ]
+      },
+      "blk_mem_gen_0_douta": {
+        "ports": [
+          "blk_mem_gen_0/douta",
+          "top_0/in_port"
+        ]
+      },
+      "c_addsub_1_S": {
+        "ports": [
+          "c_addsub_1/S",
+          "c_addsub_7/B"
+        ]
+      },
+      "c_addsub_2_S": {
+        "ports": [
+          "c_addsub_2/S",
+          "c_addsub_1/B"
+        ]
+      },
+      "c_addsub_3_S": {
+        "ports": [
+          "c_addsub_3/S",
+          "c_addsub_2/B"
+        ]
+      },
+      "c_addsub_4_S": {
+        "ports": [
+          "c_addsub_4/S",
+          "c_addsub_3/B"
+        ]
+      },
+      "c_addsub_5_S": {
+        "ports": [
+          "c_addsub_5/S",
+          "c_addsub_4/B"
+        ]
+      },
+      "c_addsub_6_S": {
+        "ports": [
+          "c_addsub_6/S",
+          "c_addsub_5/B"
+        ]
+      },
+      "c_addsub_7_S": {
+        "ports": [
+          "c_addsub_7/S",
+          "yn"
+        ]
+      },
+      "dina_0_1": {
+        "ports": [
+          "xn",
+          "blk_mem_gen_0/dina"
+        ]
+      },
+      "mult_gen_0_P": {
+        "ports": [
+          "mult_gen_0/P",
+          "c_addsub_7/A"
+        ]
+      },
+      "mult_gen_1_P": {
+        "ports": [
+          "mult_gen_1/P",
+          "c_addsub_1/A"
+        ]
+      },
+      "mult_gen_2_P": {
+        "ports": [
+          "mult_gen_2/P",
+          "c_addsub_2/A"
+        ]
+      },
+      "mult_gen_3_P": {
+        "ports": [
+          "mult_gen_3/P",
+          "c_addsub_3/A"
+        ]
+      },
+      "mult_gen_4_P": {
+        "ports": [
+          "mult_gen_4/P",
+          "c_addsub_4/A"
+        ]
+      },
+      "mult_gen_5_P": {
+        "ports": [
+          "mult_gen_5/P",
+          "c_addsub_5/A"
+        ]
+      },
+      "mult_gen_6_P": {
+        "ports": [
+          "mult_gen_6/P",
+          "c_addsub_6/A"
+        ]
+      },
+      "mult_gen_7_P": {
+        "ports": [
+          "mult_gen_7/P",
+          "c_addsub_6/B"
+        ]
+      },
+      "mux2to1_0_ram_giris": {
+        "ports": [
+          "mux2to1_0/ram_giris",
+          "blk_mem_gen_0/addra"
+        ]
+      },
+      "selector_0_a1": {
+        "ports": [
+          "selector_0/a1",
+          "mult_gen_7/A"
+        ]
+      },
+      "selector_0_a2": {
+        "ports": [
+          "selector_0/a2",
+          "mult_gen_6/A"
+        ]
+      },
+      "selector_0_a3": {
+        "ports": [
+          "selector_0/a3",
+          "mult_gen_5/A"
+        ]
+      },
+      "selector_0_a4": {
+        "ports": [
+          "selector_0/a4",
+          "mult_gen_4/A"
+        ]
+      },
+      "selector_0_a5": {
+        "ports": [
+          "selector_0/a5",
+          "mult_gen_3/A"
+        ]
+      },
+      "selector_0_a6": {
+        "ports": [
+          "selector_0/a6",
+          "mult_gen_2/A"
+        ]
+      },
+      "selector_0_a7": {
+        "ports": [
+          "selector_0/a7",
+          "mult_gen_1/A"
+        ]
+      },
+      "selector_0_a8": {
+        "ports": [
+          "selector_0/a8",
+          "mult_gen_0/A"
+        ]
+      },
+      "top_0_out_port": {
+        "ports": [
+          "top_0/out_port",
+          "selector_0/out_port_in"
+        ]
+      },
+      "top_0_port_id": {
+        "ports": [
+          "top_0/port_id",
+          "mux2to1_0/picoblaze",
+          "selector_0/port_id_in"
+        ]
+      },
+      "top_0_read_strobe": {
+        "ports": [
+          "top_0/read_strobe",
+          "mux2to1_0/s"
+        ]
+      },
+      "top_0_write_strobe": {
+        "ports": [
+          "top_0/write_strobe",
+          "selector_0/write"
+        ]
+      },
+      "wea_0_1": {
+        "ports": [
+          "wea",
+          "blk_mem_gen_0/wea"
+        ]
+      }
+    }
+  }
+}

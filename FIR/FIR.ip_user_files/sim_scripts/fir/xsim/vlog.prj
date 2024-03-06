@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "../../../../FIR.gen/sources_1/bd/fir/ipshared/62b6" \
+"../../../bd/fir/ip/fir_blk_mem_gen_0_0/sim/fir_blk_mem_gen_0_0.v" \
+"../../../bd/fir/ip/fir_clk_wiz_0_0/fir_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/fir/ip/fir_clk_wiz_0_0/fir_clk_wiz_0_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

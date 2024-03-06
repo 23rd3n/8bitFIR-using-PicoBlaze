@@ -1,0 +1,353 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Addressing View_Layers":"/c_addsub_5_S:false|/mult_gen_4_P:false|/c_addsub_7_S:false|/c_addsub_6_S:false|/c_addsub_2_S:false|/mult_gen_3_P:false|/c_addsub_3_S:false|/mult_gen_0_P:false|/c_addsub_1_S:false|/mult_gen_5_P:false|/mult_gen_1_P:false|/mult_gen_6_P:false|/c_addsub_4_S:false|/mult_gen_2_P:false|/mult_gen_7_P:false|/Net:false|",
+   "Addressing View_ScaleFactor":"1.0",
+   "Addressing View_TopLeft":"-144,-313",
+   "Color Coded_ScaleFactor":"0.284054",
+   "Color Coded_TopLeft":"-106,-771",
+   "Default View_Layers":"/mult_gen_7_P:true|/c_addsub_6_S:true|/c_addsub_5_S:true|/mult_gen_3_P:true|/mult_gen_4_P:true|/c_addsub_3_S:true|/Net:true|/mult_gen_2_P:true|/mult_gen_6_P:true|/c_addsub_4_S:true|/mult_gen_0_P:true|/mult_gen_1_P:true|/c_addsub_2_S:true|/c_addsub_1_S:true|/mult_gen_5_P:true|/c_addsub_7_S:true|",
+   "Default View_ScaleFactor":"0.395114",
+   "Default View_TopLeft":"-1931,-66",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeData":"true",
+   "Display-PortTypeOthers":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_ScaleFactor":"0.279903",
+   "Grouping and No Loops_TopLeft":"-104,-672",
+   "Interfaces View_Layers":"/mult_gen_7_P:false|/mult_gen_5_P:false|/c_addsub_7_S:false|/mult_gen_1_P:false|/mult_gen_3_P:false|/mult_gen_6_P:false|/mult_gen_0_P:false|/c_addsub_6_S:false|/c_addsub_4_S:false|/c_addsub_3_S:false|/c_addsub_2_S:false|/c_addsub_5_S:false|/mult_gen_2_P:false|/mult_gen_4_P:false|/c_addsub_1_S:false|/Net:false|",
+   "Interfaces View_ScaleFactor":"1.0",
+   "Interfaces View_TopLeft":"-144,-313",
+   "No Loops_ExpandedHierarchyInLayout":"",
+   "No Loops_Layers":"/mult_gen_7_P:true|/mult_gen_5_P:true|/c_addsub_7_S:true|/mult_gen_1_P:true|/mult_gen_3_P:true|/mult_gen_6_P:true|/mult_gen_0_P:true|/c_addsub_6_S:true|/c_addsub_4_S:true|/c_addsub_3_S:true|/c_addsub_2_S:true|/c_addsub_5_S:true|/mult_gen_2_P:true|/mult_gen_4_P:true|/c_addsub_1_S:true|/Net:true|",
+   "No Loops_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 700 -defaultsOSRD
+preplace portBus yn -pg 1 -lvl 18 -x 3940 -y 340 -defaultsOSRD
+preplace portBus xn -pg 1 -lvl 0 -x 0 -y 860 -defaultsOSRD
+preplace portBus addr -pg 1 -lvl 0 -x 0 -y 780 -defaultsOSRD
+preplace portBus wea -pg 1 -lvl 0 -x 0 -y 880 -defaultsOSRD
+preplace inst mult_gen_0 -pg 1 -lvl 16 -x 3650 -y 60 -swap {2 0 1 3} -defaultsOSRD -pinDir CLK left -pinY CLK 280L -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 260L -pinBusDir P right -pinBusY P 280R
+preplace inst mult_gen_1 -pg 1 -lvl 15 -x 3470 -y 400 -swap {1 0 2 3} -defaultsOSRD -pinDir CLK left -pinY CLK 20L -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 40L -pinBusDir P right -pinBusY P 40R
+preplace inst mult_gen_2 -pg 1 -lvl 14 -x 3270 -y 500 -swap {2 0 1 3} -defaultsOSRD -pinDir CLK left -pinY CLK 40L -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 20L -pinBusDir P right -pinBusY P 40R
+preplace inst mult_gen_3 -pg 1 -lvl 13 -x 3050 -y 540 -swap {1 0 2 3} -defaultsOSRD -pinDir CLK left -pinY CLK 20L -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 220L -pinBusDir P right -pinBusY P 220R
+preplace inst mult_gen_4 -pg 1 -lvl 12 -x 2850 -y 540 -swap {2 0 1 3} -defaultsOSRD -pinDir CLK left -pinY CLK 40L -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 20L -pinBusDir P right -pinBusY P 40R
+preplace inst mult_gen_5 -pg 1 -lvl 11 -x 2590 -y 380 -swap {1 0 2 3} -defaultsOSRD -pinDir CLK left -pinY CLK 60L -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 80L -pinBusDir P right -pinBusY P 80R
+preplace inst mult_gen_6 -pg 1 -lvl 10 -x 2350 -y 380 -swap {1 0 2 3} -defaultsOSRD -pinDir CLK left -pinY CLK 20L -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 40L -pinBusDir P right -pinBusY P 40R
+preplace inst mult_gen_7 -pg 1 -lvl 10 -x 2350 -y 200 -swap {2 0 1 3} -defaultsOSRD -pinDir CLK left -pinY CLK 40L -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 20L -pinBusDir P right -pinBusY P 40R
+preplace inst blk_mem_gen_0 -pg 1 -lvl 3 -x 690 -y 640 -defaultsOSRD -pinDir BRAM_PORTA left -pinY BRAM_PORTA 0L -pinDir BRAM_PORTA.addra left -pinY BRAM_PORTA.addra 20L -pinDir BRAM_PORTA.clka left -pinY BRAM_PORTA.clka 40L -pinDir BRAM_PORTA.dina left -pinY BRAM_PORTA.dina 180L -pinDir BRAM_PORTA.douta left -pinY BRAM_PORTA.douta 200L -pinDir BRAM_PORTA.wea left -pinY BRAM_PORTA.wea 240L
+preplace inst mux2to1_0 -pg 1 -lvl 2 -x 440 -y 740 -swap {2 0 1 3} -defaultsOSRD -pinBusDir simulation left -pinBusY simulation 40L -pinBusDir picoblaze left -pinBusY picoblaze 0L -pinDir s left -pinY s 20L -pinBusDir ram_giris right -pinBusY ram_giris 0R
+preplace inst selector_0 -pg 1 -lvl 2 -x 440 -y 60 -swap {11 0 2 3 4 5 6 9 7 8 10 12 1} -defaultsOSRD -pinBusDir port_id_in left -pinBusY port_id_in 440L -pinBusDir out_port_in left -pinBusY out_port_in 400L -pinBusDir a8 right -pinBusY a8 0R -pinBusDir a7 right -pinBusY a7 20R -pinBusDir a6 right -pinBusY a6 40R -pinBusDir a5 right -pinBusY a5 60R -pinBusDir a4 right -pinBusY a4 80R -pinBusDir a3 right -pinBusY a3 240R -pinBusDir a2 right -pinBusY a2 120R -pinBusDir a1 right -pinBusY a1 140R -pinBusDir X_out right -pinBusY X_out 320R -pinDir clk left -pinY clk 460L -pinDir write left -pinY write 420L
+preplace inst c_addsub_1 -pg 1 -lvl 16 -x 3650 -y 440 -defaultsOSRD -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 100L -pinBusDir S right -pinBusY S 0R
+preplace inst c_addsub_2 -pg 1 -lvl 15 -x 3470 -y 540 -defaultsOSRD -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 100L -pinBusDir S right -pinBusY S 0R
+preplace inst c_addsub_3 -pg 1 -lvl 14 -x 3270 -y 640 -defaultsOSRD -pinBusDir A left -pinBusY A 120L -pinBusDir B left -pinBusY B 220L -pinBusDir S right -pinBusY S 0R
+preplace inst c_addsub_4 -pg 1 -lvl 13 -x 3050 -y 860 -defaultsOSRD -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 20L -pinBusDir S right -pinBusY S 0R
+preplace inst c_addsub_5 -pg 1 -lvl 12 -x 2850 -y 680 -defaultsOSRD -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 20L -pinBusDir S right -pinBusY S 20R
+preplace inst c_addsub_6 -pg 1 -lvl 11 -x 2590 -y 640 -swap {1 0 2} -defaultsOSRD -pinBusDir A left -pinBusY A 20L -pinBusDir B left -pinBusY B 0L -pinBusDir S right -pinBusY S 60R
+preplace inst c_addsub_7 -pg 1 -lvl 17 -x 3830 -y 340 -defaultsOSRD -pinBusDir A left -pinBusY A 0L -pinBusDir B left -pinBusY B 100L -pinBusDir S right -pinBusY S 0R
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x 440 -y 620 -defaultsOSRD -pinDir clk_in1 left -pinY clk_in1 0L -pinDir clk_out1 right -pinY clk_out1 0R
+preplace inst top_0 -pg 1 -lvl 1 -x 130 -y 460 -swap {0 5 3 2 4 1} -defaultsOSRD -pinDir clk left -pinY clk 240L -pinBusDir in_port right -pinBusY in_port 240R -pinBusDir port_id right -pinBusY port_id 40R -pinDir write_strobe right -pinY write_strobe 20R -pinDir read_strobe right -pinY read_strobe 220R -pinBusDir out_port right -pinBusY out_port 0R
+preplace inst RisingEdge_DFlipFlop_14 -pg 1 -lvl 7 -x 1630 -y 420 -defaultsOSRD -pinDir Clk left -pinY Clk 0L -pinBusDir Xout right -pinBusY Xout 0R -pinBusDir Xin left -pinBusY Xin 20L
+preplace inst RisingEdge_DFlipFlop_20 -pg 1 -lvl 8 -x 1870 -y 400 -swap {2 1 0} -defaultsOSRD -pinDir Clk left -pinY Clk 20L -pinBusDir Xout right -pinBusY Xout 0R -pinBusDir Xin left -pinBusY Xin 0L
+preplace inst RisingEdge_DFlipFlop_27 -pg 1 -lvl 9 -x 2110 -y 380 -swap {2 1 0} -defaultsOSRD -pinDir Clk left -pinY Clk 20L -pinBusDir Xout right -pinBusY Xout 0R -pinBusDir Xin left -pinBusY Xin 0L
+preplace inst RisingEdge_DFlipFlop_2 -pg 1 -lvl 4 -x 930 -y 600 -swap {2 1 0} -defaultsOSRD -pinDir Clk left -pinY Clk 20L -pinBusDir Xout right -pinBusY Xout 0R -pinBusDir Xin left -pinBusY Xin 0L
+preplace inst RisingEdge_DFlipFlop_3 -pg 1 -lvl 3 -x 690 -y 380 -swap {2 1 0} -defaultsOSRD -pinDir Clk left -pinY Clk 140L -pinBusDir Xout right -pinBusY Xout 140R -pinBusDir Xin left -pinBusY Xin 0L
+preplace inst RisingEdge_DFlipFlop_5 -pg 1 -lvl 5 -x 1170 -y 620 -defaultsOSRD -pinDir Clk left -pinY Clk 0L -pinBusDir Xout right -pinBusY Xout 80R -pinBusDir Xin left -pinBusY Xin 20L
+preplace inst RisingEdge_DFlipFlop_9 -pg 1 -lvl 6 -x 1390 -y 620 -defaultsOSRD -pinDir Clk left -pinY Clk 0L -pinBusDir Xout right -pinBusY Xout 0R -pinBusDir Xin left -pinBusY Xin 80L
+preplace netloc Net 1 2 14 580 580 820 540 1040 560 1280 560 1500 500 1760 480 2000 460 2260 480 2500 580 2760 480 2960 480 3160 420 3380 340 N
+preplace netloc Net1 1 0 3 20 760 280 680 NJ
+preplace netloc Net2 1 2 14 580 320 NJ 320 NJ 320 NJ 320 NJ 320 NJ 320 NJ 320 NJ 320 NJ 320 NJ 320 NJ 320 NJ 320 NJ 320 N
+preplace netloc RisingEdge_DFlipFlop_14_Xout 1 7 4 1740 500 NJ 500 NJ 500 2480J
+preplace netloc RisingEdge_DFlipFlop_20_Xout 1 8 2 1980 480 2220J
+preplace netloc RisingEdge_DFlipFlop_27_Xout 1 9 1 2220 220n
+preplace netloc RisingEdge_DFlipFlop_2_Xout 1 4 10 1060 540 NJ 540 NJ 540 NJ 540 NJ 540 NJ 540 NJ 540 2720J 460 NJ 460 3140
+preplace netloc RisingEdge_DFlipFlop_3_Xout 1 3 12 800 520 NJ 520 NJ 520 NJ 520 NJ 520 NJ 520 NJ 520 NJ 520 2680J 440 NJ 440 NJ 440 NJ
+preplace netloc RisingEdge_DFlipFlop_5_Xout 1 5 8 1280 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ
+preplace netloc RisingEdge_DFlipFlop_9_Xout 1 6 6 1520 560 NJ 560 NJ 560 NJ 560 NJ 560 N
+preplace netloc addr_1 1 0 2 NJ 780 NJ
+preplace netloc blk_mem_gen_0_douta 1 1 2 240 840 NJ
+preplace netloc c_addsub_1_S 1 16 1 N 440
+preplace netloc c_addsub_2_S 1 15 1 N 540
+preplace netloc c_addsub_3_S 1 14 1 N 640
+preplace netloc c_addsub_4_S 1 13 1 N 860
+preplace netloc c_addsub_5_S 1 12 1 2940 700n
+preplace netloc c_addsub_6_S 1 11 1 N 700
+preplace netloc c_addsub_7_S 1 17 1 N 340
+preplace netloc dina_0_1 1 0 3 NJ 860 NJ 860 580J
+preplace netloc mult_gen_0_P 1 16 1 N 340
+preplace netloc mult_gen_1_P 1 15 1 N 440
+preplace netloc mult_gen_2_P 1 14 1 N 540
+preplace netloc mult_gen_3_P 1 13 1 N 760
+preplace netloc mult_gen_4_P 1 12 1 2960 580n
+preplace netloc mult_gen_5_P 1 11 1 2700 460n
+preplace netloc mult_gen_6_P 1 10 1 2440 420n
+preplace netloc mult_gen_7_P 1 10 1 2460 240n
+preplace netloc mux2to1_0_ram_giris 1 2 1 580 660n
+preplace netloc selector_0_a1 1 2 8 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 N
+preplace netloc selector_0_a2 1 2 8 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 2240
+preplace netloc selector_0_a3 1 2 9 NJ 300 NJ 300 NJ 300 NJ 300 NJ 300 NJ 300 NJ 300 NJ 300 2500
+preplace netloc selector_0_a4 1 2 10 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 NJ 140 2740
+preplace netloc selector_0_a5 1 2 11 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 2940
+preplace netloc selector_0_a6 1 2 12 NJ 100 NJ 100 NJ 100 NJ 100 NJ 100 NJ 100 NJ 100 NJ 100 NJ 100 NJ 100 NJ 100 3180
+preplace netloc selector_0_a7 1 2 13 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 NJ 80 3360
+preplace netloc selector_0_a8 1 2 14 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 NJ 60 N
+preplace netloc top_0_out_port 1 1 1 N 460
+preplace netloc top_0_port_id 1 1 1 300 500n
+preplace netloc top_0_read_strobe 1 1 1 260 680n
+preplace netloc top_0_write_strobe 1 1 1 N 480
+preplace netloc wea_0_1 1 0 3 NJ 880 NJ 880 NJ
+levelinfo -pg 1 0 130 440 690 930 1170 1390 1630 1870 2110 2350 2590 2850 3050 3270 3470 3650 3830 3940
+pagesize -pg 1 -db -bbox -sgen -110 0 4040 940
+",
+   "No Loops_ScaleFactor":"0.343064",
+   "No Loops_TopLeft":"-105,-682",
+   "Reduced Jogs_Layers":"/mult_gen_7_P:true|/c_addsub_6_S:true|/c_addsub_5_S:true|/mult_gen_3_P:true|/mult_gen_4_P:true|/c_addsub_3_S:true|/Net:true|/mult_gen_2_P:true|/mult_gen_6_P:true|/c_addsub_4_S:true|/mult_gen_0_P:true|/mult_gen_1_P:true|/c_addsub_2_S:true|/c_addsub_1_S:true|/mult_gen_5_P:true|/c_addsub_7_S:true|",
+   "Reduced Jogs_ScaleFactor":"0.279903",
+   "Reduced Jogs_TopLeft":"-104,-765",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -2330 -y 400 -defaultsOSRD
+preplace portBus yn -pg 1 -lvl 3 -x -950 -y 1130 -defaultsOSRD -bot
+preplace portBus xn -pg 1 -lvl 1 -x -1670 -y 1130 -defaultsOSRD -bot
+preplace portBus addr -pg 1 -lvl 1 -x -1650 -y 1130 -defaultsOSRD -bot
+preplace portBus wea -pg 1 -lvl 1 -x -1690 -y 1130 -defaultsOSRD -bot
+preplace inst mult_gen_0 -pg 1 -lvl 3 -x -960 -y 820 -defaultsOSRD -orient R270 -resize 104 127
+preplace inst mult_gen_1 -pg 1 -lvl 4 -x -760 -y 810 -defaultsOSRD -orient R270 -resize 106 125
+preplace inst mult_gen_2 -pg 1 -lvl 5 -x -560 -y 810 -defaultsOSRD -orient R270
+preplace inst mult_gen_3 -pg 1 -lvl 6 -x -360 -y 820 -defaultsOSRD -orient R270
+preplace inst mult_gen_4 -pg 1 -lvl 7 -x -150 -y 820 -defaultsOSRD -orient R270
+preplace inst mult_gen_5 -pg 1 -lvl 8 -x 70 -y 830 -defaultsOSRD -orient R270
+preplace inst mult_gen_6 -pg 1 -lvl 9 -x 270 -y 820 -defaultsOSRD -orient R270
+preplace inst mult_gen_7 -pg 1 -lvl 10 -x 470 -y 820 -defaultsOSRD -orient R270
+preplace inst blk_mem_gen_0 -pg 1 -lvl 1 -x -1590 -y 880 -defaultsOSRD
+preplace inst mux2to1_0 -pg 1 -lvl 1 -x -1590 -y 700 -swap {2 0 1 3} -defaultsOSRD -resize 185 140
+preplace inst c_addsub_1 -pg 1 -lvl 4 -x -760 -y 970 -defaultsOSRD
+preplace inst c_addsub_2 -pg 1 -lvl 5 -x -560 -y 970 -defaultsOSRD
+preplace inst c_addsub_3 -pg 1 -lvl 6 -x -360 -y 980 -defaultsOSRD
+preplace inst c_addsub_4 -pg 1 -lvl 7 -x -150 -y 980 -defaultsOSRD
+preplace inst c_addsub_5 -pg 1 -lvl 8 -x 70 -y 990 -swap {1 0 2} -defaultsOSRD
+preplace inst c_addsub_6 -pg 1 -lvl 9 -x 270 -y 1000 -swap {1 0 2} -defaultsOSRD
+preplace inst c_addsub_7 -pg 1 -lvl 3 -x -960 -y 970 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -x -1250 -y 360 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_14 -pg 1 -lvl 8 -x 70 -y 400 -defaultsOSRD -orient R270
+preplace inst RisingEdge_DFlipFlop_20 -pg 1 -lvl 7 -x -150 -y 390 -defaultsOSRD -orient R270
+preplace inst RisingEdge_DFlipFlop_27 -pg 1 -lvl 9 -x 270 -y 400 -defaultsOSRD -orient R270
+preplace inst RisingEdge_DFlipFlop_2 -pg 1 -lvl 4 -x -760 -y 380 -defaultsOSRD -orient R90 -resize 93 169
+preplace inst RisingEdge_DFlipFlop_3 -pg 1 -lvl 3 -x -960 -y 370 -defaultsOSRD -orient R90 -resize 93 162
+preplace inst RisingEdge_DFlipFlop_5 -pg 1 -lvl 5 -x -560 -y 390 -defaultsOSRD -orient R270 -resize 93 164
+preplace inst RisingEdge_DFlipFlop_9 -pg 1 -lvl 6 -x -360 -y 390 -defaultsOSRD -orient R270 -resize 93 168
+preplace inst selector_0 -pg 1 -lvl 2 -x -1250 -y 630 -defaultsOSRD -resize 275 401
+preplace inst top_0 -pg 1 -lvl 1 -x -1590 -y 500 -defaultsOSRD
+preplace netloc Net 1 2 8 -1090 460N -860 480N -650 280N -470 280N -270 280N -40 290N 160 290N 360
+preplace netloc Net1 1 0 2 -2310 400 -1420
+preplace netloc Net2 1 2 1 -1080 470n
+preplace netloc RisingEdge_DFlipFlop_14_Xout 1 7 1 -50 290n
+preplace netloc RisingEdge_DFlipFlop_20_Xout 1 7 2 -60 510 180
+preplace netloc RisingEdge_DFlipFlop_27_Xout 1 9 1 380 500n
+preplace netloc RisingEdge_DFlipFlop_2_Xout 1 4 1 -660 280n
+preplace netloc RisingEdge_DFlipFlop_3_Xout 1 3 1 -850 270n
+preplace netloc RisingEdge_DFlipFlop_5_Xout 1 5 1 -450 290n
+preplace netloc RisingEdge_DFlipFlop_9_Xout 1 6 2 -250 730N -30
+preplace netloc addr_1 1 0 1 -2290J 730n
+preplace netloc blk_mem_gen_0_douta 1 0 1 -2300 510n
+preplace netloc c_addsub_1_S 1 2 3 -1080 1040 NJ 1040 -670
+preplace netloc c_addsub_2_S 1 3 3 -860 1050 NJ 1050 -470
+preplace netloc c_addsub_3_S 1 4 3 -660 1060 NJ 1060 -270
+preplace netloc c_addsub_4_S 1 5 3 -450 1050 NJ 1050 -60
+preplace netloc c_addsub_5_S 1 6 3 -260 1060 NJ 1060 160
+preplace netloc c_addsub_6_S 1 7 3 -30 920 NJ 920 370
+preplace netloc c_addsub_7_S 1 3 1 -870 970n
+preplace netloc dina_0_1 1 0 1 -2280J 890n
+preplace netloc mult_gen_0_P 1 2 1 -1080 900n
+preplace netloc mult_gen_1_P 1 3 1 -860 890n
+preplace netloc mult_gen_2_P 1 4 1 -660 890n
+preplace netloc mult_gen_3_P 1 5 1 -450 900n
+preplace netloc mult_gen_4_P 1 6 1 -260 900n
+preplace netloc mult_gen_5_P 1 7 1 -40 910n
+preplace netloc mult_gen_6_P 1 8 1 170 900n
+preplace netloc mult_gen_7_P 1 8 2 180 910 370
+preplace netloc mux2to1_0_ram_giris 1 0 2 -2260 990 -1460
+preplace netloc selector_0_a1 1 2 8 -1070J 700 NJ 700 NJ 700 NJ 700 NJ 700 NJ 700 NJ 700 370
+preplace netloc selector_0_a2 1 2 7 NJ 710 NJ 710 NJ 710 NJ 710 NJ 710 NJ 710 170
+preplace netloc selector_0_a3 1 2 6 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 -50
+preplace netloc selector_0_a4 1 2 5 NJ 630 NJ 630 NJ 630 NJ 630 -260
+preplace netloc selector_0_a5 1 2 4 NJ 590 NJ 590 NJ 590 -460
+preplace netloc selector_0_a6 1 2 3 NJ 550 NJ 550 -670
+preplace netloc selector_0_a7 1 2 2 NJ 510 -870
+preplace netloc selector_0_a8 1 2 1 -1090 470n
+preplace netloc top_0_out_port 1 1 1 -1430 530n
+preplace netloc top_0_port_id 1 0 2 -2290 590 -1440J
+preplace netloc top_0_read_strobe 1 0 2 -2260 600 -1460
+preplace netloc top_0_write_strobe 1 1 1 -1450 490n
+preplace netloc wea_0_1 1 0 1 -2270J 930n
+levelinfo -pg 1 -2330 -1590 -1250 -960 -760 -560 -360 -150 70 270 470 1370
+pagesize -pg 1 -db -bbox -sgen -2400 0 1370 1230
+",
+   "my view_DefaultLayers":"",
+   "my view_DefaultScaleFactor":"0.382883",
+   "my view_DefaultTopLeft":"-504,-311",
+   "my view_ExpandedHierarchyInLayout":"",
+   "my view_Layers":"/c_addsub_5_S:true|/mult_gen_4_P:true|/c_addsub_7_S:true|/c_addsub_6_S:true|/c_addsub_2_S:true|/mult_gen_3_P:true|/c_addsub_3_S:true|/mult_gen_0_P:true|/c_addsub_1_S:true|/mult_gen_5_P:true|/mult_gen_1_P:true|/mult_gen_6_P:true|/c_addsub_4_S:true|/mult_gen_2_P:true|/mult_gen_7_P:true|",
+   "my view_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x 0 -y 290 -defaultsOSRD
+preplace port port-id_clk2 -pg 1 -lvl 0 -x 0 -y 470 -defaultsOSRD
+preplace portBus yn -pg 1 -lvl 17 -x 4000 -y 1030 -defaultsOSRD -bot
+preplace portBus xn -pg 1 -lvl 0 -x 0 -y 190 -defaultsOSRD
+preplace portBus addr -pg 1 -lvl 0 -x 0 -y 120 -defaultsOSRD
+preplace portBus wea -pg 1 -lvl 0 -x 0 -y 210 -defaultsOSRD
+preplace inst mult_gen_0 -pg 1 -lvl 16 -x 3700 -y 560 -swap {2 0 1 3} -defaultsOSRD
+preplace inst mult_gen_1 -pg 1 -lvl 15 -x 3480 -y 630 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_2 -pg 1 -lvl 14 -x 3270 -y 640 -swap {2 0 1 3} -defaultsOSRD
+preplace inst mult_gen_3 -pg 1 -lvl 13 -x 3080 -y 650 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_4 -pg 1 -lvl 12 -x 2890 -y 930 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_5 -pg 1 -lvl 11 -x 2680 -y 830 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_6 -pg 1 -lvl 10 -x 2470 -y 650 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_7 -pg 1 -lvl 10 -x 2470 -y 830 -swap {1 0 2 3} -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 17 -x 3930 -y 170 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_14 -pg 1 -lvl 7 -x 1710 -y 460 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_20 -pg 1 -lvl 8 -x 1980 -y 670 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_27 -pg 1 -lvl 9 -x 2220 -y 670 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_2 -pg 1 -lvl 4 -x 980 -y 280 -swap {2 1 0} -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_5 -pg 1 -lvl 5 -x 1230 -y 290 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_9 -pg 1 -lvl 6 -x 1480 -y 300 -defaultsOSRD
+preplace inst mux2to1_0 -pg 1 -lvl 16 -x 3700 -y 90 -swap {2 0 1 3} -defaultsOSRD -resize 185 140
+preplace inst selector_0 -pg 1 -lvl 2 -x 460 -y 700 -defaultsOSRD
+preplace inst c_addsub_1 -pg 1 -lvl 16 -x 3700 -y 690 -defaultsOSRD
+preplace inst c_addsub_2 -pg 1 -lvl 15 -x 3480 -y 760 -defaultsOSRD
+preplace inst c_addsub_3 -pg 1 -lvl 14 -x 3270 -y 790 -defaultsOSRD
+preplace inst c_addsub_4 -pg 1 -lvl 13 -x 3080 -y 800 -defaultsOSRD
+preplace inst c_addsub_5 -pg 1 -lvl 12 -x 2890 -y 800 -swap {1 0 2} -defaultsOSRD
+preplace inst c_addsub_6 -pg 1 -lvl 11 -x 2680 -y 700 -swap {1 0 2} -defaultsOSRD
+preplace inst c_addsub_7 -pg 1 -lvl 17 -x 3930 -y 570 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_3 -pg 1 -lvl 3 -x 750 -y 440 -swap {2 1 0} -defaultsOSRD
+preplace inst top_0 -pg 1 -lvl 1 -x 160 -y 380 -defaultsOSRD
+preplace netloc Net 1 0 16 NJ 470 NJ 470 600 340 870 360 1110 370 1360 400 1590 540 1820 600 2090 580 2360 910 2590 930 2790 730 2980 730 3180 720 3370 550 3570
+preplace netloc Net1 1 0 17 20 290 310 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 NJ 180 3820J
+preplace netloc Net2 1 2 14 620 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 NJ 530 3580
+preplace netloc RisingEdge_DFlipFlop_14_Xout 1 7 4 1850 770 NJ 770 2380J 750 2560J
+preplace netloc RisingEdge_DFlipFlop_20_Xout 1 8 2 2110 590 2380J
+preplace netloc RisingEdge_DFlipFlop_27_Xout 1 9 1 2340 670n
+preplace netloc RisingEdge_DFlipFlop_2_Xout 1 4 10 1100 380 1370J 370 NJ 370 NJ 370 NJ 370 NJ 370 NJ 370 NJ 370 NJ 370 3180
+preplace netloc RisingEdge_DFlipFlop_3_Xout 1 3 12 860 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ 390 NJ 390 3390
+preplace netloc RisingEdge_DFlipFlop_5_Xout 1 5 8 1350 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 NJ 380 2990
+preplace netloc RisingEdge_DFlipFlop_9_Xout 1 6 6 1600 550 1830J 540 NJ 540 NJ 540 NJ 540 2780
+preplace netloc addr_1 1 0 16 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ 120 NJ
+preplace netloc blk_mem_gen_0_douta 1 0 17 30 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ 200 NJ
+preplace netloc c_addsub_1_S 1 16 1 3820 580n
+preplace netloc c_addsub_2_S 1 15 1 3570 700n
+preplace netloc c_addsub_3_S 1 14 1 3380 770n
+preplace netloc c_addsub_4_S 1 13 1 N 800
+preplace netloc c_addsub_5_S 1 12 1 2980 800n
+preplace netloc c_addsub_6_S 1 11 1 2770 700n
+preplace netloc dina_0_1 1 0 17 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 NJ 190 3830J
+preplace netloc mult_gen_0_P 1 16 1 N 560
+preplace netloc mult_gen_1_P 1 15 1 3580 630n
+preplace netloc mult_gen_2_P 1 14 1 3360 640n
+preplace netloc mult_gen_3_P 1 13 1 3170 650n
+preplace netloc mult_gen_4_P 1 12 1 2990 790n
+preplace netloc mult_gen_5_P 1 11 1 2770 810n
+preplace netloc mult_gen_6_P 1 10 1 2590 650n
+preplace netloc mult_gen_7_P 1 10 1 2580 690n
+preplace netloc mux2to1_0_ram_giris 1 16 1 3820 90n
+preplace netloc selector_0_a1 1 2 8 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 2330
+preplace netloc selector_0_a2 1 2 8 NJ 740 NJ 740 NJ 740 NJ 740 NJ 740 1820J 750 NJ 750 2350
+preplace netloc selector_0_a3 1 2 9 NJ 720 NJ 720 NJ 720 NJ 720 NJ 720 1830J 740 NJ 740 NJ 740 2570
+preplace netloc selector_0_a4 1 2 10 600J 920 NJ 920 NJ 920 NJ 920 NJ 920 NJ 920 NJ 920 NJ 920 NJ 920 2800
+preplace netloc selector_0_a5 1 2 11 640 590 NJ 590 NJ 590 NJ 590 NJ 590 NJ 590 2100J 600 2370J 730 2560J 630 NJ 630 NJ
+preplace netloc selector_0_a6 1 2 12 630 580 NJ 580 NJ 580 NJ 580 NJ 580 1870J 570 NJ 570 NJ 570 NJ 570 NJ 570 NJ 570 3170J
+preplace netloc selector_0_a7 1 2 13 610 570 NJ 570 NJ 570 NJ 570 NJ 570 1860J 560 NJ 560 NJ 560 NJ 560 NJ 560 NJ 560 NJ 560 3380J
+preplace netloc selector_0_a8 1 2 14 600 560 NJ 560 NJ 560 NJ 560 NJ 560 1840J 550 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 NJ 550 3360J 540 NJ
+preplace netloc top_0_out_port 1 1 1 300 410n
+preplace netloc top_0_port_id 1 1 15 320 350 NJ 350 NJ 350 1090J 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 NJ 220 3570J
+preplace netloc top_0_read_strobe 1 1 15 300 370 NJ 370 NJ 370 1120J 360 1340J 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 NJ 230 3580J
+preplace netloc top_0_write_strobe 1 1 1 290 370n
+preplace netloc wea_0_1 1 0 17 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 NJ 210 3830J
+preplace netloc c_addsub_7_S 1 17 1 4030 570n
+levelinfo -pg 1 0 160 460 750 980 1230 1480 1710 1980 2220 2470 2680 2890 3080 3270 3480 3700 3930 4050
+pagesize -pg 1 -db -bbox -sgen -110 0 4050 1130
+",
+   "my view_Layout_Default":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_clk -pg 1 -lvl 0 -x -400 -y 140 -defaultsOSRD
+preplace port port-id_clk2 -pg 1 -lvl 0 -x -400 -y 440 -defaultsOSRD
+preplace portBus yn -pg 1 -lvl 4 -x 760 -y 700 -defaultsOSRD -bot
+preplace portBus xn -pg 1 -lvl 0 -x -400 -y 510 -defaultsOSRD
+preplace portBus addr -pg 1 -lvl 0 -x -400 -y 320 -defaultsOSRD
+preplace portBus wea -pg 1 -lvl 0 -x -400 -y 530 -defaultsOSRD
+preplace inst mult_gen_0 -pg 1 -lvl 3 -x 430 -y 380 -swap {2 0 1 3} -defaultsOSRD
+preplace inst mult_gen_1 -pg 1 -lvl 4 -x 690 -y 390 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_2 -pg 1 -lvl 5 -x 960 -y 380 -swap {2 0 1 3} -defaultsOSRD
+preplace inst mult_gen_3 -pg 1 -lvl 6 -x 1240 -y 390 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_4 -pg 1 -lvl 7 -x 1500 -y 390 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_5 -pg 1 -lvl 8 -x 1760 -y 380 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_6 -pg 1 -lvl 9 -x 2030 -y 390 -swap {1 0 2 3} -defaultsOSRD
+preplace inst mult_gen_7 -pg 1 -lvl 10 -x 2260 -y 230 -swap {1 0 2 3} -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 2 -x 100 -y 430 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_14 -pg 1 -lvl 7 -x 1500 -y 210 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_20 -pg 1 -lvl 8 -x 1760 -y 210 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_27 -pg 1 -lvl 9 -x 2030 -y 210 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_2 -pg 1 -lvl 4 -x 690 -y 210 -swap {2 1 0} -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_5 -pg 1 -lvl 5 -x 960 -y 210 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_9 -pg 1 -lvl 6 -x 1240 -y 210 -defaultsOSRD
+preplace inst mux2to1_0 -pg 1 -lvl 1 -x -210 -y 420 -swap {2 0 1 3} -defaultsOSRD -resize 185 140
+preplace inst selector_0 -pg 1 -lvl 2 -x 100 -y 150 -defaultsOSRD
+preplace inst c_addsub_1 -pg 1 -lvl 5 -x 960 -y 530 -defaultsOSRD
+preplace inst c_addsub_2 -pg 1 -lvl 6 -x 1240 -y 530 -defaultsOSRD
+preplace inst c_addsub_3 -pg 1 -lvl 7 -x 1500 -y 530 -defaultsOSRD
+preplace inst c_addsub_4 -pg 1 -lvl 8 -x 1760 -y 540 -defaultsOSRD
+preplace inst c_addsub_5 -pg 1 -lvl 9 -x 2030 -y 540 -swap {1 0 2} -defaultsOSRD
+preplace inst c_addsub_6 -pg 1 -lvl 10 -x 2260 -y 510 -swap {1 0 2} -defaultsOSRD
+preplace inst c_addsub_7 -pg 1 -lvl 4 -x 690 -y 530 -defaultsOSRD
+preplace inst RisingEdge_DFlipFlop_3 -pg 1 -lvl 3 -x 430 -y 210 -swap {2 1 0} -defaultsOSRD
+preplace inst top_0 -pg 1 -lvl 1 -x -210 -y 240 -defaultsOSRD
+preplace netloc Net 1 0 10 -370J 330 -80J 320 320 280 570 280 810 280 1110 280 1390 280 1650 280 1910 280 2140
+preplace netloc Net1 1 0 2 -380 140 -60
+preplace netloc Net2 1 2 1 310 200n
+preplace netloc RisingEdge_DFlipFlop_14_Xout 1 7 1 1630 210n
+preplace netloc RisingEdge_DFlipFlop_20_Xout 1 8 1 1890 210n
+preplace netloc RisingEdge_DFlipFlop_27_Xout 1 9 1 2150 210n
+preplace netloc RisingEdge_DFlipFlop_2_Xout 1 4 1 800 210n
+preplace netloc RisingEdge_DFlipFlop_3_Xout 1 3 1 550 200n
+preplace netloc RisingEdge_DFlipFlop_5_Xout 1 5 1 1090 210n
+preplace netloc RisingEdge_DFlipFlop_9_Xout 1 6 1 1370 210n
+preplace netloc addr_1 1 0 1 -380J 320n
+preplace netloc blk_mem_gen_0_douta 1 0 2 -340 510 -70J
+preplace netloc c_addsub_1_S 1 3 3 580 290 N 290 1070
+preplace netloc c_addsub_2_S 1 4 3 830 300 N 300 1350
+preplace netloc c_addsub_3_S 1 5 3 1120 310 N 310 1610
+preplace netloc c_addsub_4_S 1 6 3 1370 620 N 620 1870
+preplace netloc c_addsub_5_S 1 7 3 1630 610 N 610 2150
+preplace netloc c_addsub_6_S 1 8 3 1900 470 2160 440 2350
+preplace netloc dina_0_1 1 0 2 -360J 520 -80J
+preplace netloc mult_gen_0_P 1 3 1 540 380n
+preplace netloc mult_gen_1_P 1 4 1 800 390n
+preplace netloc mult_gen_2_P 1 5 1 1080 380n
+preplace netloc mult_gen_3_P 1 6 1 1360 390n
+preplace netloc mult_gen_4_P 1 7 1 1620 390n
+preplace netloc mult_gen_5_P 1 8 1 1880 380n
+preplace netloc mult_gen_6_P 1 9 1 2140 390n
+preplace netloc mult_gen_7_P 1 9 2 2170 150 2350
+preplace netloc mux2to1_0_ram_giris 1 1 1 -80 400n
+preplace netloc selector_0_a1 1 2 8 240 80 N 80 N 80 N 80 N 80 N 80 N 80 2160
+preplace netloc selector_0_a2 1 2 7 270 90 N 90 N 90 N 90 N 90 N 90 1900
+preplace netloc selector_0_a3 1 2 6 280 100 N 100 N 100 N 100 N 100 1640
+preplace netloc selector_0_a4 1 2 5 290 120 N 120 N 120 N 120 1380
+preplace netloc selector_0_a5 1 2 4 N 130 N 130 N 130 1100
+preplace netloc selector_0_a6 1 2 3 250 140 N 140 820
+preplace netloc selector_0_a7 1 2 2 260 110 560
+preplace netloc selector_0_a8 1 2 1 300 70n
+preplace netloc top_0_out_port 1 1 1 -50 140n
+preplace netloc top_0_port_id 1 0 2 -360 130 -70
+preplace netloc top_0_read_strobe 1 0 2 -350 150 -80
+preplace netloc top_0_write_strobe 1 1 1 -40 180n
+preplace netloc wea_0_1 1 0 2 NJ 530 -40J
+preplace netloc c_addsub_7_S 1 4 1 810 530n
+levelinfo -pg 1 -400 -210 100 430 690 960 1240 1500 1760 2030 2260 4370
+pagesize -pg 1 -db -bbox -sgen -510 -230 4370 800
+",
+   "my view_ScaleFactor":"0.472545",
+   "my view_TopLeft":"-106,-121"
+}
+{
+   "da_board_cnt":"1"
+}
